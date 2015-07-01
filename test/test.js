@@ -32,7 +32,6 @@ describe("server", function() {
         var fd = fs.openSync(fixturePath, "w");
         fs.writeSync(fd, "google");
         fs.closeSync(fd);
-
         // Write data to the file.
         fs.writeFileSync(fixturePath, "google");
 
